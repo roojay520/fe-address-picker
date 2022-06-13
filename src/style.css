@@ -1,0 +1,27 @@
+#address-picker {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+select {
+  -webkit-appearance: none;
+  background: url(./src/images/arrow-down.svg) calc(100% - 8px) center no-repeat;
+  background-color: rgb(241, 243, 244);
+  background-size: 10px;
+  border: none;
+  border-radius: 4px;
+  color: rgb(32, 33, 36);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  max-width: 100%;
+  outline: none;
+  padding-bottom: 6px;
+  padding-inline-end: calc(8px + 10px + 3px);
+  padding-inline-start: 8px;
+  padding-top: 6px;
+  width: 200px;
+}
